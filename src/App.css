@@ -1,0 +1,70 @@
+
+header{
+  color:rgb(11, 20, 29);
+  background-color: slateblue;
+  padding: 50px 200px;
+  font-size: 50px;
+  font-family: verdana;
+}
+
+body{
+  background-color: #aaaaaa;
+  text-align: center;
+}
+
+
+
+input{
+  margin: 30px;
+  height: 50px;
+  width: 200px;
+  font-size:25px;
+  border-radius: 10px;
+}
+
+input[type=text]:focus {
+  border: 5px solid #555;
+  background-color: #ffa600;
+}
+
+button{
+  margin: 20px;
+  height: 80px;
+  width: 120px;
+  font-size: 25px;
+  font-family: verdana;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  background-color: #477779;
+}
+
+.timeUp{
+  font-size: 120px;
+  font-family:verdana;
+  
+}
+
+.timeText{
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 50px;
+}
+
+.timer{
+  font-family: verdana;
+  font-size: 100px;
+}
+
+.blinking{
+  animation:blinkingText .5s infinite;
+  font-family: verdana;
+  font-size: 100px;
+}
+@keyframes blinkingText{
+  0%{     color: #ff0000;    }
+  49%{    color: transparent; }
+  50%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #ff0000;    }
+}
